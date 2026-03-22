@@ -1,0 +1,48 @@
+# ============================================================
+#  .gitignore for C++ Visual Studio Projects
+# ============================================================
+
+# ── Build output folders ────────────────────────────────────
+Debug/
+Release/
+x64/
+x86/
+Win32/
+
+# ── Visual Studio cache / temp files ────────────────────────
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+CppProperties.json
+
+# ── Compiled output ─────────────────────────────────────────
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.o
+
+# ── Precompiled headers ─────────────────────────────────────
+*.pch
+*.gch
+*.ipch
+
+# ── CMake (if ever used) ────────────────────────────────────
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# ── OS junk ─────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ── Mystery file ────────────────────────────────────────────
+0
